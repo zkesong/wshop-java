@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.bryans.springboot.ms_server.mapper.SiteMapper">
+    <resultMap id="map1" type="SiteStatistics">
+        <id property="id" column="id" jdbcType="INTEGER"/>
+        <result property="visitorCount" column="visitorCount" jdbcType="INTEGER"/>
+        <result property="articleCount" column="articleCount" jdbcType="INTEGER"/>
+    </resultMap>
+</mapper>
+

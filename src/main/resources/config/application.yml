@@ -1,0 +1,25 @@
+#data  sources
+spring:
+  profiles:
+    active: pro
+  datasource:
+    url: jdbc:mysql://120.24.51.133:3306/db_kslive?autoReconnect=true
+    username: root
+    password: zks233
+    driver-class-name: com.mysql.jdbc.Driver
+    dbcp2:
+      max-idle: 5
+      max-total: 15
+      max-wait-millis: 10000
+      validation-query: select 1
+    type: org.apache.commons.dbcp2.BasicDataSource
+#mybatis-config
+mybatis:
+  type-aliases-package: cn.bryans.springboot.ms_server.model
+  mapper-locations: classpath:/mapper/*.xml
+
+  configuration:
+    cache-enabled: true
+
+
+

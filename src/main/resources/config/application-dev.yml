@@ -1,0 +1,10 @@
+#server
+server:
+  port: 8080
+  context-path: /dev
+#logging
+logging:
+  level:
+    cn.bryans.springboot.ms_server: debug
+    root: debug
+  file: logs/debug.log

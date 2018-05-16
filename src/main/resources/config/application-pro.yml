@@ -1,0 +1,13 @@
+#server
+server:
+  port: 80
+  context-path: /wshop
+#logging
+logging:
+  level:
+    cn.bryans.springboot.ms_server: debug
+    org.mybatis: debug
+    org.springframework.web: debug
+    org.springframework.transaction: debug
+    root: warn
+  file: /home/logs/my.log
