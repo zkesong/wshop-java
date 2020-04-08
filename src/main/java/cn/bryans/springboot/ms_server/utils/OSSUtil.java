@@ -13,10 +13,10 @@ import java.io.*;
  * @Description:
  */
 public class OSSUtil {
-    private static final String BUCKET_NAME = "bucket-kesong-blog";
-    private static final String ENDPOINT = "https://oss-cn-shenzhen.aliyuncs.com";
-    private static final String ACCESSKEY_ID = "LTAII41QLo6odGnc";
-    private static final String ACCESSKEY_SECRET = "vfhgIIvKSoPvDj59LraqyIdEJC6tEi";
+    private static final String BUCKET_NAME = "xxx";
+    private static final String ENDPOINT = "https://xxx";
+    private static final String ACCESSKEY_ID = "xxx";
+    private static final String ACCESSKEY_SECRET = "xxx";
 
     private OSSUtil() {
     }
